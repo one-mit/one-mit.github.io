@@ -92,7 +92,7 @@ text_input_mit_input.dispatchEvent(new Event("input", {bubbles: true}));
 }
 
   table {
-    background-color: rgba(255,255,255,0.375);
+    background-color: rgba(255,255,255,0.5);
 }
 
   input {
