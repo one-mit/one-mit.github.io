@@ -23,8 +23,12 @@ export default {
 		  path: "see-onemit",
 	  },
 	  {
+		  name: "FAQ & Search Tips",
+		  path: "faq",
+	  },
+	  {
 		  name: "About",
-		  open:false,
+		  open: true,
 		  pages: [
 			  {name:"One.MIT Inception",path:"inception"},
 			  {name:"Gathering the Names",path:"gathering-names"},
@@ -33,10 +37,6 @@ export default {
 			  {name:"Name Search Implementation",path:"name-search"},
 			  {name:"Team",path:"team"},
 		  ]
-	  },
-	  {
-		  name: "FAQ & Search Tips",
-		  path: "faq",
 	  },
   ]
 };
