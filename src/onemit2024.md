@@ -428,10 +428,11 @@ invalidation.then(() => {
 const center_longitude = (text_selection_mit.lower_longitude + text_selection_mit.higher_longitude)/2;
 const center_latitude = (text_selection_mit.lower_latitude + text_selection_mit.higher_latitude)/2;
 
-const lower_left = [text_selection_mit.lower_longitude,text_selection_mit.lower_latitude];
-const top_left = [text_selection_mit.lower_longitude,text_selection_mit.higher_latitude];
-const top_right = [text_selection_mit.higher_longitude,text_selection_mit.higher_latitude];
-const lower_right = [text_selection_mit.higher_longitude,text_selection_mit.lower_latitude];
+const nudge = 1e-6
+const lower_left = [text_selection_mit.lower_longitude-nudge,text_selection_mit.lower_latitude-nudge];
+const top_left = [text_selection_mit.lower_longitude-nudge,text_selection_mit.higher_latitude+nudge];
+const top_right = [text_selection_mit.higher_longitude+nudge,text_selection_mit.higher_latitude+nudge];
+const lower_right = [text_selection_mit.higher_longitude+nudge,text_selection_mit.lower_latitude-nudge];
 const bounding_box_rectangle = [lower_left,top_left,top_right,lower_right,lower_left];
 
 bounding_box_geojson.features[0].geometry.coordinates[0] = bounding_box_rectangle;
