@@ -4,7 +4,17 @@ toc: false
 theme: [air,alt,wide]
 ---
 
+```js
+// VISIT BACKGROUND IMAGE
+
+const background_img_src = FileAttachment("./imgs/one-visit-overlay.jpg").href;
+function return_resized_img(width,height) {
+  return html`<img src="${background_img_src}" height="${height}px" width="${width}px" style="object-fit:cover; border-radius: 0.75rem;">`
+}
+```
+
 <div class= "grid grid-cols-2">
+  ${resize((width,height)=> return_resized_img(width,height))}
   <div class="card">
     <h1> See One.MIT on display at MIT</h1>
     
