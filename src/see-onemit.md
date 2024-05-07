@@ -6,11 +6,9 @@ theme: [air,alt,wide]
 
 <div class= "grid grid-cols-2">
   <div class="card">
-    <h1> See One.MIT in person</h1>
+    <h1> See One.MIT on display at MIT</h1>
     
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nisl purus in mollis nunc sed id semper. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Proin nibh nisl condimentum id venenatis a condimentum vitae. Nisi lacus sed viverra tellus in hac habitasse. Scelerisque purus semper eget duis. Congue nisi vitae suscipit tellus mauris. Tellus integer feugiat scelerisque varius. Magna eget est lorem ipsum dolor sit amet. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Arcu risus quis varius quam quisque id. Neque volutpat ac tincidunt vitae semper. Velit ut tortor pretium viverra.
-
-Risus feugiat in ante metus dictum. Purus viverra accumsan in nisl nisi scelerisque eu. Sed turpis tincidunt id aliquet. At auctor urna nunc id cursus metus aliquam. Erat velit scelerisque in dictum non. Est pellentesque elit ullamcorper dignissim cras tincidunt. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Sem et tortor consequat id. Est sit amet facilisis magna etiam. Mauris nunc congue nisi vitae suscipit tellus mauris. Nulla facilisi nullam vehicula ipsum a arcu cursus.
+One.MIT is on permanent display at <a style="text-decoration:none; color: #2A5DB0;" href="https://mitnano.mit.edu/" target="_blank">MIT.nano</a>, a nanoscale research facility located in the center of the MIT campus. Come see the wafer in the MIT.nano first floor galleries located in the southwest corner of the building, the corner closest to the MIT Great Dome (<a href="https://whereis.mit.edu/?go=12" target="_blank">map</a>).
 
   </div>
 
