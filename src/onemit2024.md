@@ -54,7 +54,7 @@ const zoomdif = 4;
 const fly_duration = 20000;
 const access_token = "pk.eyJ1IjoiZ3Zhcm5hdmlkZXMiLCJhIjoiY2pxZTVicmY2NGJyYTQ4cHBpMHF1MnQ0cCJ9.DuX_gamAs2uXdmq8Gio90Q";
 const mapbox_style = "mapbox://styles/gvarnavides/clvmxvwcy01bb01rj7q509sg6";
-const server_prefix = "https://onemitdata.mit.edu/onemit-data/";
+const server_prefix = "https://onemitdata.mit.edu/";
 
 const hilbert_source = {
   'type': 'geojson',
