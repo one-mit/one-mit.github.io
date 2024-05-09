@@ -4,6 +4,16 @@ toc: false
 theme: [air,alt,wide]
 ---
 
+```js
+// YOUTUBE VIDEO RESIZE
+
+const youtube_src = "https://www.youtube.com/embed/qCX2iEi5X1o?start=2870&end=3012";
+function return_resized_iframe(width,height) {
+  return html`<iframe width="${width}" height="${height}" src="${youtube_src}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+}
+```
+
+
 <div class= "grid grid-cols-2">
   <div class="card">
     <h1> Fabricating the Wafer </h1>
@@ -15,7 +25,6 @@ Risus feugiat in ante metus dictum. Purus viverra accumsan in nisl nisi sceleris
   </div>
 
   <div class="card">
-    <h1> Figure placeholder </h1>
-    <a href="https://www.youtube.com/embed/qCX2iEi5X1o?start=2870&end=3012">A glimpse of the actual wafer fabrication</a>
+    ${resize((width,height)=> return_resized_iframe(width,height))}
   </div>
 </div>
