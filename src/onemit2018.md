@@ -49,7 +49,7 @@ const text_selection_mit = Generators.input(text_selection_mit_input)
 ```js
 // SVG PATHS
 
-const server_prefix = "https://onemit.mit.edu/onemit-2018";
+const server_prefix = "https://onemitdata.mit.edu/onemit-2018";
 const svg_urls = [
   server_prefix + text_selection_mit.location.slice(0, -4) + "_1.svg",
   server_prefix + text_selection_mit.location.slice(0, -4) + "_2.svg",
