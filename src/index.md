@@ -35,6 +35,11 @@ toc: false
   color: var(--theme-foreground-muted);
 }
 
+.hero p {
+  max-width: none;
+  text-align: justify;
+}
+
 @media (min-width: 640px) {
   .hero h1 {
     font-size: 90px;
@@ -77,13 +82,15 @@ function return_img(src, size, url) {
 <div class="hero">
   <h1>One.MIT</h1>
 
-Generation after generation, the people of MIT have worked together to build a better world. Each era faced challenges particular to its own time and place. But if you could travel through time to visit the Institute in any year of our history, you would find a place that feels remarkably familiar: curious, rigorous, and relentlessly focused on advancing knowledge and working wisely, creatively, and effectively for the betterment of humankind.
+Generation after generation, the people of MIT have worked together to build a better world. Each era faced challenges particular to its own time and place.
+But if you could travel through time to visit the Institute in any year of our history, you would find a place that feels remarkably familiar: curious, rigorous, and relentlessly focused on advancing knowledge and working wisely, creatively, and effectively for the betterment of humankind.
+One.MIT is a tribute to this special community.
+We have gathered, to the best of our ability, the names of those who have passed through the Institute on their way to building a better world or who arrived here and found the place where they would conduct their life’s work.
 
-One.MIT is a tribute to this special community. We have gathered, to the best of our ability, the names of those who have passed through the Institute on their way to building a better world or who arrived here and found the place where they would conduct their life’s work.
-
-We have shaped the names of these individuals into three mosaics: MIT’s Great Dome (2018), the MIT Seal (2020), and an homage to the founding of the Cambridge campus a century ago (2024). These images—etched on a silicon wafer using the tools of MIT.nano—symbolize the collective sense of purpose that drives MIT to confront the questions of today and to solve the problem of tomorrow. 
-
-Whether you were part of MIT in 1870 or 1970, 1920 or 2020, you are part of a family whose reach spans the globe and whose impact defies measurement. Many generations, one community, One.MIT.
+We have shaped the names of these individuals into three mosaics: MIT’s Great Dome (2018), the MIT Seal (2020), and an homage to the founding of the Cambridge campus a century ago (2024).
+These images &mdash; etched on a silicon wafer using the tools of MIT.nano &mdash; symbolize the collective sense of purpose that drives MIT to confront the questions of today and to solve the problem of tomorrow.
+Whether you were part of MIT in 1870 or 1970, 1920 or 2020, you are part of a family whose reach spans the globe and whose impact defies measurement.
+Many generations, one community, One.MIT.
 
 </div>
 
