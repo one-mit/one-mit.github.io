@@ -16,5 +16,6 @@ Risus feugiat in ante metus dictum. Purus viverra accumsan in nisl nisi sceleris
 
   <div class="card">
     <h1> Figure placeholder </h1>
+    <a href="https://www.youtube.com/embed/qCX2iEi5X1o?start=2870&end=3012">A glimpse of the actual wafer fabrication</a>
   </div>
 </div>
