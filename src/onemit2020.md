@@ -46,8 +46,7 @@ const zoomdif = 4;
 const fly_duration = 20000;
 const access_token = "pk.eyJ1IjoiaWNodWFuZyIsImEiOiJjazl2b2s1aW4wMWQzM3BxamczOTZ4c3ExIn0.3W79oPGv3rXMbqfS3KHnBw";
 const mapbox_style = "mapbox://styles/mapbox/light-v11";
-//const server_prefix = "https://onemit.mit.edu/onemit-data/";
-const server_prefix = "https://onemit.ue.r.appspot.com/data/";
+const server_prefix = "https://onemitdata.mit.edu/tiles/";
 
 const seal_source = {
   'type': 'vector',
