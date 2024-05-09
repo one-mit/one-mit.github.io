@@ -92,6 +92,9 @@ These images &mdash; etched on a silicon wafer using the tools of MIT.nano &mdas
 Whether you were part of MIT in 1870 or 1970, 1920 or 2020, you are part of a family whose reach spans the globe and whose impact defies measurement.
 Many generations, one community, One.MIT.
 
+One.MIT is on permanent display at [MIT.nano](https://mitnano.mit.edu), a nanoscale research facility located in the center of the MIT campus.
+Come see the wafers in the MIT.nano first floor galleries located in the southwest corner of the building, the corner closest to the MIT Great Dome ([map](https://whereis.mit.edu/?go=12)).
+
 </div>
 
 <div class="grid grid-cols-3" style="grid-auto-rows: auto;">

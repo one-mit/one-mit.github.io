@@ -19,10 +19,6 @@ export default {
 		  path: "onemit2024",
 	  },
 	  {
-		  name: "See One.MIT in person",
-		  path: "see-onemit",
-	  },
-	  {
 		  name: "FAQ & Search Tips",
 		  path: "faq",
 	  },
