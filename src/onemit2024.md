@@ -129,7 +129,7 @@ const hilbert_layer = {
   "layout": {"visibility": "visible"},
   "paint": {
     "line-color": "rgb(36, 107, 206)",
-    "line-width": 2,
+    "line-width": 1,
     "line-opacity": background_opacity
   }
 };
@@ -169,7 +169,7 @@ const hilbert_layer_inset = {
   "layout": {"visibility": "visible"},
   "paint": {
     "line-color": "rgb(36, 107, 206)",
-    "line-width": 2,
+    "line-width": 1,
   }
 };
 
