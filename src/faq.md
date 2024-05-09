@@ -41,6 +41,9 @@ ___
 - Cross-registered, visiting or special students
 - Non-alumni parents of current and/or former students
 
+**Q: What order are the names in?**  
+The names are in random order. Read more about why <a href="./design-process">here.</a>
+
 **Q: Why is the number of names increasing each time?**  
 Every year MIT welcomes new students, staff, and faculty to join the community! We also take the opportunity with each new design to fix errors and add names previously missed - often discovered with the help of visitors like you.
 
