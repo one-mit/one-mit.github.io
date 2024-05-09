@@ -1,6 +1,8 @@
 ---
 title: One.MIT 2024
 toc: false
+footer: false
+header: false
 theme: [air,alt,wide]
 sql:
   onemit2024: ./data/onemit2024.parquet

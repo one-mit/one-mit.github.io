@@ -1,6 +1,8 @@
 ---
 title: One.MIT 2020
 toc: false
+header: false
+footer: false
 theme: [air,alt,wide]
 sql:
   onemit2021: ./data/onemit2021.parquet
