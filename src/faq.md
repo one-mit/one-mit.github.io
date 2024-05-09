@@ -34,10 +34,10 @@ ___
 Every year MIT welcomes new students, staff, and faculty to join the community! We also take the opportunity with each new design to fix errors and add names previously missed - often discovered with the help of visitors like you.
 
 **Q: Who designed One.MIT?**  
-MIT Professor W. Craig Carter leads the artistic vision and intricately mathematical designs for every version of One.MIT. Learn more about the design process <a href="./design-process/">here</a>.
+MIT Professor W. Craig Carter leads the artistic vision and intricately mathematical designs for every version of One.MIT. Learn more about the design process <a href="./design-process">here</a>.
 
 **Q: How is the wafer made?**  
-Each wafer is fabricated right in MIT.nano cleanrooms on campus. Learn more about wafer fabrication <a href="./wafer-fabrication/">here</a>.
+Each wafer is fabricated right in MIT.nano cleanrooms on campus. Learn more about wafer fabrication <a href="./wafer-fabrication">here</a>.
 
 **Q: Will you be adding new students/faculty/staff and recent graduate names?**  
 We have not settled on a definite plan for adding in recent graduates and new faculty/staff, but we're planning to generate a new version every couple years. 
