@@ -16,7 +16,7 @@ theme: [air,alt,wide]
 
 ___ 
 
-**Q: Which categories of the MIT community are included on the wafer and can be found by searching the site?**
+**Q: Which categories of the MIT community are included on the wafers and can be found by searching the site?**
 - Most living and deceased degreed and non-degreed alumni
 - Most currently matriculated students (as of September 2023 for the most recent design)
 - Most postdoctoral associates and fellows (as of September 2023 for the most recent design)
