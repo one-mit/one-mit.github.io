@@ -51,7 +51,7 @@ Every year MIT welcomes new students, staff, and faculty to join the community! 
 MIT Professor W. Craig Carter leads the artistic vision and intricate mathematical designs for every version of One.MIT. Learn more about his design process <a href="./design-process">here</a>.
 
 **Q: How is the wafer made?**  
-Each wafer is fabricated right in MIT.nano cleanrooms on campus, with assistance from MIT undergrad students! Learn more about wafer fabrication <a href="./wafer-fabrication">here</a>.
+Each wafer is fabricated right in MIT.nano cleanrooms on campus, led by Jorg Scholvin with assistance from MIT undergrad students! Learn more about the wafer fabrication <a href="./wafer-fabrication">here</a>.
 
 **Q: How is the website made?**  
 George Varnavides wrote the code for the website. The 2018 version uses precomputed images at different magnifications. The 2020 and 2024 versions use vector tiles to implement a navigation-like interface. Learn more about the name search implementation <a href="./name-search">here</a>.
