@@ -18,9 +18,11 @@ function return_resized_iframe(width,height) {
   <div class="card">
     <h1> Fabricating the Wafer </h1>
     
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nisl purus in mollis nunc sed id semper. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Proin nibh nisl condimentum id venenatis a condimentum vitae. Nisi lacus sed viverra tellus in hac habitasse. Scelerisque purus semper eget duis. Congue nisi vitae suscipit tellus mauris. Tellus integer feugiat scelerisque varius. Magna eget est lorem ipsum dolor sit amet. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Arcu risus quis varius quam quisque id. Neque volutpat ac tincidunt vitae semper. Velit ut tortor pretium viverra.
+The very first test wafer was fabricated in 2018 by Dennis Ward and Kris Payer in the now-closed Microsystems Technology Laboratory cleanrooms in Building 39, before the newly-built MIT.nano shared central facility was completed and opened to users. Since then, every wafer has been fabricated in the cleanrooms of MIT.nano by teams that include MIT undergraduates, graduate students, staff, faculty, and alumni!  
 
-Risus feugiat in ante metus dictum. Purus viverra accumsan in nisl nisi scelerisque eu. Sed turpis tincidunt id aliquet. At auctor urna nunc id cursus metus aliquam. Erat velit scelerisque in dictum non. Est pellentesque elit ullamcorper dignissim cras tincidunt. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Sem et tortor consequat id. Est sit amet facilisis magna etiam. Mauris nunc congue nisi vitae suscipit tellus mauris. Nulla facilisi nullam vehicula ipsum a arcu cursus.
+(photo of people in cleanroom bunny suits)  
+
+Despite the complexity of computationally generating the image and layout files, patterning the tiny text on a silicon wafer is easy - for someone familiar with the fabrication processes used every day for micro- and nano- technology. First, the specially cleaned wafer is loaded into deposition chambers to grow a thin silicon nitride layer followed by an aluminum layer. The two layers combined are approximately 100nm thick, or 500-1000 times thinner than a single human hair. The wafer is then coated with photoresist and exposed in a direct-write photolithography tool to make an etch mask. Finally, the aluminum is selectively etched and the photoresist removed to create the image on the wafer.  
 
   </div>
 
