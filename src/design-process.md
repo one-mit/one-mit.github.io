@@ -19,6 +19,7 @@ The black and white regions sow the seeds that produce the heavy and light fonts
 The font types are inherited from their position in the background image. Quality typesetting requires the spacing between characters to be “kerned.” For example, the appearance of **LY** looks better when the spacing within the **L** and the **Y** is smaller. **IM** looks better with a wider spacing and so the kern is larger. 
 
 (onemit_font_kerning.png)
+<a href="https://en.wikipedia.org/wiki/Kerning">Learn more about kerning at Wikipedia.</a>
 
 The kerns are different for the different fonts—each character pair has four possible kerns. This produces some complexity because minor adjustments can switch font types that have different widths and kerns. The change in spacing produces a cascading effect on subsequent font choices. Modifying just one letter from light to dark (and vice versa) perturbs the spacing in the whole image and requires re-computing the entire mosaic.
 
