@@ -22,7 +22,7 @@ The very first test wafer was fabricated in 2018 by Dennis Ward and Kris Payer i
 
 (photo of people in cleanroom bunny suits)  
 
-Despite the complexity of computationally generating the image and layout files, patterning the tiny text on a silicon wafer is easy - for someone familiar with the fabrication processes used every day for micro- and nano- technology. First, the specially cleaned wafer is loaded into deposition chambers to grow a thin silicon nitride layer followed by an aluminum layer. The two layers combined are approximately 100nm thick, or 500-1000 times thinner than a single human hair. The wafer is then coated with photoresist and exposed in a direct-write photolithography tool to make an etch mask. Finally, the aluminum is selectively etched and the photoresist removed to create the image on the wafer.  
+Despite the complexity of computationally generating the image and layout files, patterning the tiny text on a silicon wafer is easy - for someone familiar with the fabrication processes used every day for micro- and nano- technology. First, the specially cleaned wafer is loaded into deposition chambers to grow a thin silicon nitride layer followed by an aluminum layer. The two layers combined measure approximately 100nm in thickness, or 500-1000 times thinner than a single human hair. The wafer is then coated with photoresist and exposed in a direct-write photolithography tool to make an etch mask. Finally, the aluminum is selectively etched and the photoresist removed to create the image on the wafer.  
 
   </div>
 
