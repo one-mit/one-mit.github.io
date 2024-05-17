@@ -57,6 +57,7 @@ const fly_duration = 20000;
 const access_token = "pk.eyJ1IjoiZ3Zhcm5hdmlkZXMiLCJhIjoiY2pxZTVicmY2NGJyYTQ4cHBpMHF1MnQ0cCJ9.DuX_gamAs2uXdmq8Gio90Q";
 const mapbox_style = "mapbox://styles/gvarnavides/clvmxvwcy01bb01rj7q509sg6";
 const server_prefix = "https://onemitdata.mit.edu/tiles/";
+const mouse_lng_lat = Mutable([]);
 
 const hilbert_source = {
   'type': 'geojson',
@@ -102,6 +103,7 @@ var bounding_box_geojson = {
   }
 ]
 };
+
 
 const bounding_box_source = {
   'type': 'geojson',
@@ -364,6 +366,11 @@ map.on("load", () => {
   map.addLayer(blue_layer);
   map.addLayer(bounding_box_layer);
   map.addControl(new mapboxgl.NavigationControl(),'bottom-right');
+});
+
+map.on("click", (e) => {
+  mouse_lng_lat.push(e.lngLat);
+  console.log(mouse_lng_lat);
 });
 
 const map_inset = new mapboxgl.Map({
