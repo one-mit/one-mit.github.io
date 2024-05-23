@@ -10,7 +10,7 @@ theme: [air,alt,wide]
     
 For every iteration of One.MIT, Prof. W. Craig Carter created the designs, algorithms, numerical solutions, and data translation -- a tremendous undertaking.  
 
-## Placing the names and creating the mosaics  
+**Placing the names and creating the mosaics**  
 
 Every One.MIT artwork starts from a black and white image:  MIT's Great Dome, drawn by Heidi Erickson (2018); the MIT Seal (2020); an image Carter himself drew, inspired by a lithograph produced for the 1916 celebration of MIT's move from Boston to Cambridge (2024). 
 
@@ -33,7 +33,7 @@ Once a solution (i.e., the final image created by the millions of characters) is
   <div class="card">
     <h1> Special features of the designs  </h1>
 
-### One.MIT 2024 - Move to Cambridge
+***One.MIT 2024 - Move to Cambridge***  
 
 Inspired by a 1916 lithograph celebrating the opening of MIT’s then newly-built Cambridge campus, the One.MIT 2024 design achieves its background gradient effect by using a _single continuous line_ that weaves back and forth in a Schwarz-Christoffel mapping of a Hilbert curve.
 
@@ -57,12 +57,12 @@ Because the conformal mapping is smooth and preserves the local angles, the squa
 
 ![One.MIT 2024 drawing](./imgs/onemit2024_base_image.png)
 
-### One.MIT 2020 - The MIT Seal
+**One.MIT 2020 - The MIT Seal**  
 
 If you look carefully, you may spot an additional motif hidden on the 2020 wafer. Inspired by the beautiful (and intriguingly mathematical) patterns inside a sunflower, known as phyllotaxis, this subtle pattern spirals out over the design.
 
 
-### One.MIT 2018 - The Great Dome
+**One.MIT 2018 - The Great Dome**  
 
 This original image of MIT’s iconic Great Dome was drawn by Heidi Erickson, senior graphic designer in the MIT Center for Art, Science & Technology.
 
