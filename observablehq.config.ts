@@ -47,6 +47,7 @@ export default {
 			  {name:"One.MIT Inception",path:"inception"},
 			  {name:"Gathering the Names",path:"gathering-names"},
 			  {name:"Design Process",path:"design-process"},
+			  {name:"Design Features",path:"special-features"},
 			  {name:"Fabricating the Wafer",path:"wafer-fabrication"},
 			  {name:"Name Search Implementation",path:"name-search"},
 			  {name:"Team",path:"team"},
