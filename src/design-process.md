@@ -28,7 +28,7 @@ Finally, Carter needed to find a font scale that fills the wafer space maximally
 
 Once a solution (i.e., the final image created by the millions of characters) is obtained it must be converted to two different printing languages. For the wafer fabrication, Carter had to write data conversions to the layout file format (GDSII) that was created for interconnects on silicon chips.  For the large wall print, the data is converted to PostScript and then from PostScript to PDF. 
 
-![Zoomed in on One.MIT2018](./imgs/C-Crop%20M.jpg)
+![Zoomed in on One.MIT2018](./imgs/crop_M.jpg)
 
 *Zooming on the One.MIT 2018 wafer design*
 
