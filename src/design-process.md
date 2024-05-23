@@ -10,7 +10,7 @@ theme: [air,alt,wide]
     
 For every iteration of One.MIT, Prof. W. Craig Carter created the designs, algorithms, numerical solutions, and data translation -- a tremendous undertaking.  
 
-<h2> Placing the names and creating the mosaics </h2> 
+## Placing the names and creating the mosaics  
 
 Every One.MIT artwork starts from a black and white image:  MIT's Great Dome, drawn by Heidi Erickson (2018); the MIT Seal (2020); an image Carter himself drew, inspired by a lithograph produced for the 1916 celebration of MIT's move from Boston to Cambridge (2024). 
 
@@ -18,8 +18,9 @@ The black and white regions sow the seeds that produce the heavy and light fonts
 
 The font types are inherited from their position in the background image. Quality typesetting requires the spacing between characters to be “kerned.” For example, the appearance of **LY** looks better when the spacing within the **L** and the **Y** is smaller. **IM** looks better with a wider spacing and so the kern is larger. 
 
-(onemit_font_kerning.png)
-<a href="https://en.wikipedia.org/wiki/Kerning">Learn more about kerning at Wikipedia.</a>
+![Example of text with kerning](./imgs/text_kerning_example.png)
+
+*<a href="https://en.wikipedia.org/wiki/Kerning">Curious about kerning? Learn more at Wikipedia.</a>*
 
 The kerns are different for the different fonts—each character pair has four possible kerns. This produces some complexity because minor adjustments can switch font types that have different widths and kerns. The change in spacing produces a cascading effect on subsequent font choices. Modifying just one letter from light to dark (and vice versa) perturbs the spacing in the whole image and requires re-computing the entire mosaic.
 
@@ -28,45 +29,41 @@ Finally, Carter needed to find a font scale that fills the wafer space maximally
 Once a solution (i.e., the final image created by the millions of characters) is obtained it must be converted to two different printing languages. For the wafer fabrication, Carter had to write data conversions to the layout file format (GDSII) that was created for interconnects on silicon chips.  For the large wall print, the data is converted to PostScript and then from PostScript to PDF. 
 
 
-<h2> Special features of the designs </h2>
+## Special features of the designs 
 
-**One.MIT 2024 - Move to Cambridge**  
+### One.MIT 2024 - Move to Cambridge
 
 Inspired by a 1916 lithograph celebrating the opening of MIT’s then newly-built Cambridge campus, the One.MIT 2024 design achieves its background gradient effect by using a _single continuous line_ that weaves back and forth in a Schwarz-Christoffel mapping of a Hilbert curve.
 
-(lithograph here, with link to original archive)
+[![Image of program cover](./imgs/lithograph_1916_program_image.png)](https://cdn.libraries.mit.edu/dissemination/diponline/AC0343/AC0343_SouvenirProgram.pdf)
 
 Carter had to redraw the lithograph’s architectural features and character elements to get clean data representation.
 
 The color gradient representing the sky behind the dome was a challenge because only two shades were available. In true MIT spirit, this challenge provided Carter an opportunity for nerdiness and fun. Two techniques were combined to create the gradient effect.
 
-(hilbert-curve.png)
+![Hilbert curves](./imgs/hilbert_curves.png)
 
 The first technique to create a Hilbert curve. A Hilbert curve is a hierarchical continuous curve that is created by replacing an element with combination of four elements. Each of these four elements are replaced by another four elements, and so on. The result is a fractal-like object composed on 90-degree turns. The Hilbert curve creates the texture that is the foundation of the gradient for the sky in the final figure. It also will help create a useful reference as you search out a name in ONE.MIT.
 
-(schwarz-christoffel-mapping.png)
+![Schwarz-Christoffel mapping](./imgs/schwarz-christoffel-mapping.png)
 
 To achieve the gradient and the wafer shape, Carter morphed square Hilbert curve into a disk. Maintaining the 90-degree turns provides a pleasing aesthetic element and an opportunity to inject some Complex Analysis nerdiness into the scheme. 
 
 A Conformal Map comes in handy—in this case the Schwarz-Christoffel mapping. Conformal maps can be used to solve problems in electrostatics, gravitational fields, fluid flow, and temperature distributions—they are lovely convergences of physics and engineering with mathematics and geometry.
 
-(onemit2024_bw.png)
-
 Because the conformal mapping is smooth and preserves the local angles, the square’s corners produce four singular points on the circle where the Hilbert curve’s line segments shrink to a point. The location of the four points in the upper part of the circle squeezes the curve and creates the gradient: dense-to-sparse from top-to-bottom.
- 
 
-**One.MIT 2020 - The MIT Seal**  
+![One.MIT 2024 drawing](./imgs/onemit2024_base_image.png)
+
+### One.MIT 2020 - The MIT Seal
 
 If you look carefully, you may spot an additional motif hidden on the 2020 wafer. Inspired by the beautiful (and intriguingly mathematical) patterns inside a sunflower, known as phyllotaxis, this subtle pattern spirals out over the design.
 
-(add image of design w/just sunflower pattern part?)
 
-
-**One.MIT 2018 - The Great Dome** 
+### One.MIT 2018 - The Great Dome
 
 This original image of MIT’s iconic Great Dome was drawn by Heidi Erickson, senior graphic designer in the MIT Center for Art, Science & Technology.
 
-(add original line drawing img)
 
   </div>
 
