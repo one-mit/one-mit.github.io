@@ -18,7 +18,7 @@ MIT.nano
 **George Varnavides '17, PhD '22**  
 Miller Postdoctoral Fellow, UC Berkeley  
 
-**Jorg Scholvin '00, MNG '01, PhD '06, PD '10**  
+**Jorg Scholvin '00, MNG '01, PhD '06, PD '06, PD '10**  
 Associate Director, Fabrication  
 MIT.nano  
 
