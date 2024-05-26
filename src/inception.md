@@ -38,15 +38,11 @@ Each design -- the Great Dome (2018), the MIT Seal (2020), and the Move to Cambr
 
 <br>
 
-*The One.MIT artwork and specially fabricated wafers are now displayed in the ground floor galleries at MIT.nano. The onemit.mit.edu interactive website allows visitors to search for individual names in each design.* 
+*The One.MIT artwork and specially fabricated wafers are on display in the ground floor galleries at MIT.nano in the Lisa T. Su Building (<a href="https://whereis.mit.edu/?go=12">Building 12</a>). The <a href="https://onemit.mit.edu">onemit.mit.edu</a> interactive website allows visitors to search for individual names in each design.* 
 
   </div>
 
-  <div class="card">
-
-    ${resize((width,height)=> return_img(img_src_mitnano,Math.min(width,height),"https://mitnano.mit.edu"))}
-    
-    *MIT.nano in the Lisa T. Su Building (<a href="https://whereis.mit.edu/?go=12">Building 12</a>)*  
-
-  </div>
+    <div class="img-container" style="min-height:242px;">
+      ${resize((width,height)=> return_img(img_src_mitnano,Math.min(width,height),"https://mitnano.mit.edu"))}
+    </div>
 </div>
