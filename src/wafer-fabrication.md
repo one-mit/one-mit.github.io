@@ -59,7 +59,7 @@ For One.MIT 2024, Dr. Jorg Scholvin assembled a team that reflected One.MIT—st
   </div>
 
   <div class="card">
-    ${resize((width,height)=> return_img(img_src_photolith,Math.min(width,height)))}
+    ${resize((width,height)=> return_img(img_src_fab2020,Math.min(width,height)))}
 
 *The MIT Seal design wafer (One.MIT 2020) was fabricated in April 2022 inside MIT.nano by undergraduate students Eryn Cornelius ’23, Syd Robinson ’25, James Greer ’22, and Aashini Shah ’22 led by Jorg Scholvin of MIT.nano.*  
 
