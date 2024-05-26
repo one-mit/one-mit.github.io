@@ -4,6 +4,21 @@ toc: false
 theme: [air,alt,wide]
 ---
 
+<style>
+  
+.img-container {
+  text-align: center;
+}
+
+.img-container img {
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+  
+</style>
+
+
 ```js
 // YOUTUBE VIDEO RESIZE
 
