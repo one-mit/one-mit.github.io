@@ -1,7 +1,7 @@
 ---
 title: One.MIT 2018
 toc: false
-theme: [air,alt,wide]
+theme: [air, alt, wide]
 sql:
   onemit2018: ./data/onemit2018.parquet
 ---
@@ -9,9 +9,16 @@ sql:
 ```js
 // SEARCH BACKGROUND IMAGE
 
-const background_img_src = FileAttachment("./imgs/onemit2018-search_background.jpg").href;
-function return_resized_img(width,height) {
-  return html`<img src="${background_img_src}" height="${height}px" width="${width}px" style="object-fit:cover; border-radius: 0.75rem;">`
+const background_img_src = FileAttachment(
+  "./imgs/onemit2018-search_background.jpg",
+).href;
+function return_resized_img(width, height) {
+  return html`<img
+    src="${background_img_src}"
+    height="${height}px"
+    width="${width}px"
+    style="object-fit:cover; border-radius: 0.75rem;"
+  />`;
 }
 ```
 
@@ -30,8 +37,10 @@ const text_input_mit = Generators.input(text_input_mit_input);
 // QUERY RESULTS
 
 const name_mit_array = text_input_mit.toUpperCase().trim().split(" ");
-const name_mit_glob = name_mit_array.reduce((acc,val) => acc + val + "*","*");
-const name_mit_glob_reversed = name_mit_array.toReversed().reduce((acc,val) => acc + val + "*","*");
+const name_mit_glob = name_mit_array.reduce((acc, val) => acc + val + "*", "*");
+const name_mit_glob_reversed = name_mit_array
+  .toReversed()
+  .reduce((acc, val) => acc + val + "*", "*");
 
 const text_selection_mit_input = Inputs.table(
   sql`SELECT * FROM "onemit2018" WHERE "name" GLOB ${name_mit_glob} OR "name" GLOB ${name_mit_glob_reversed} LIMIT 10`,
@@ -41,9 +50,9 @@ const text_selection_mit_input = Inputs.table(
     multiple: false,
     height: 240,
     layout: "auto",
-  }
+  },
 );
-const text_selection_mit = Generators.input(text_selection_mit_input)
+const text_selection_mit = Generators.input(text_selection_mit_input);
 ```
 
 ```js
@@ -53,12 +62,12 @@ const server_prefix = "https://onemitdata.mit.edu/onemit-2018";
 const svg_urls = [
   server_prefix + text_selection_mit.location.slice(0, -4) + "_1.svg",
   server_prefix + text_selection_mit.location.slice(0, -4) + "_2.svg",
-  server_prefix + text_selection_mit.location.slice(0, -4) + "_3.svg"
+  server_prefix + text_selection_mit.location.slice(0, -4) + "_3.svg",
 ];
 
 // reset text box
 text_input_mit_input.value = "";
-text_input_mit_input.dispatchEvent(new Event("input", {bubbles: true}));
+text_input_mit_input.dispatchEvent(new Event("input", { bubbles: true }));
 ```
 
 <style type="text/css">
@@ -123,4 +132,3 @@ text_input_mit_input.dispatchEvent(new Event("input", {bubbles: true}));
 <div class="grid grid-cols-3" style="grid-auto-rows: auto; text-align:center;">
   <div class="grid-colspan-3"> ${html`<a target="_blank" href="${server_prefix + text_selection_mit.location}">Download PDF</a>`} </div>
 </div>
- 

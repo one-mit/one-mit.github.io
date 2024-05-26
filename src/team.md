@@ -1,7 +1,7 @@
 ---
 title: Team
 toc: false
-theme: [air,alt,wide]
+theme: [air, alt, wide]
 ---
 
 <div class= "grid grid-cols-2">
@@ -9,32 +9,32 @@ theme: [air,alt,wide]
     <h1> One.MIT Creative Team </h1>    
     
 **W. Craig Carter**  
-Toyota Professor of Materials Science  
+Toyota Professor of Materials Science
 
 **Annie Wang '03, MNG '04, PhD '11, PD '11**  
 Research Scientist, Special Projects  
-MIT.nano  
+MIT.nano
 
 **George Varnavides '17, PhD '22**  
-Miller Postdoctoral Fellow, UC Berkeley  
+Miller Postdoctoral Fellow, UC Berkeley
 
 **Jorg Scholvin '00, MNG '01, PhD '06, PD '06, PD '10**  
 Associate Director, Fabrication  
-MIT.nano  
+MIT.nano
 
-<br>  
+<br>
 
-**Original Concept by:**  
+**Original Concept by:**
 
 **Vladimir Bulović**  
 Fariborz Maseeh Professor of Emerging Technologies  
-Director, MIT.nano  
+Director, MIT.nano
 
   </div>
   <div class="card">
     <h1> Acknowledgments </h1>
 
-We are grateful to many individuals who helped create One.MIT over the years. Their contributions embody the creative spirit of MIT: faculty, staff, students, and alumni coming together with passion, imagination, and ingenuity to bring a new idea to life.  
+We are grateful to many individuals who helped create One.MIT over the years. Their contributions embody the creative spirit of MIT: faculty, staff, students, and alumni coming together with passion, imagination, and ingenuity to bring a new idea to life.
 
 **Contributors**  
 Class of 2018 Senior Class Gift  
@@ -45,7 +45,7 @@ Jana Dambrogio
 Jon Daries  
 Vicky Diadiuk '73, SCD '78  
 Heidi Erickson  
-Deborah Douglas   
+Deborah Douglas  
 Tom Gearty  
 James Greer ’22  
 Eboney Hearn ‘01  
@@ -59,7 +59,7 @@ Patricia LaBorda
 Ayako Letizia  
 Tom Lohman  
 Juan Angel Luera ’24  
-Juan Antonio Luera ’24   
+Juan Antonio Luera ’24  
 Sean Luk ’26  
 Haripriya Mehta '20, MNG '20  
 Mark Mondol  

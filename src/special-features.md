@@ -1,16 +1,16 @@
 ---
 title: Design Notes
 toc: false
-theme: [air,alt,wide]
+theme: [air, alt, wide]
 ---
 
 <div class= "grid grid-cols-2">
   <div class="card">
     <h1> Special features of the designs  </h1>
 
-Curious about the inspirations and special features behind each One.MIT design? Read on below! 
+Curious about the inspirations and special features behind each One.MIT design? Read on below!
 
-***One.MIT 2024 - Move to Cambridge***  
+**_One.MIT 2024 - Move to Cambridge_**
 
 Inspired by a 1916 lithograph celebrating the opening of MIT’s then newly-built Cambridge campus, the One.MIT 2024 design achieves its background gradient effect by using a _single continuous line_ that weaves back and forth in a Schwarz-Christoffel mapping of a Hilbert curve.
 
@@ -26,7 +26,7 @@ The first technique to create a Hilbert curve. A Hilbert curve is a hierarchica
 
 ![Schwarz-Christoffel mapping](./imgs/schwarz-christoffel-mapping.png)
 
-To achieve the gradient and the wafer shape, Carter morphed square Hilbert curve into a disk. Maintaining the 90-degree turns provides a pleasing aesthetic element and an opportunity to inject some Complex Analysis nerdiness into the scheme. 
+To achieve the gradient and the wafer shape, Carter morphed square Hilbert curve into a disk. Maintaining the 90-degree turns provides a pleasing aesthetic element and an opportunity to inject some Complex Analysis nerdiness into the scheme.
 
 A Conformal Map comes in handy—in this case the Schwarz-Christoffel mapping. Conformal maps can be used to solve problems in electrostatics, gravitational fields, fluid flow, and temperature distributions—they are lovely convergences of physics and engineering with mathematics and geometry.
 
@@ -36,16 +36,15 @@ Because the conformal mapping is smooth and preserves the local angles, the squa
 
 <br>
 
-**One.MIT 2020 - The MIT Seal**  
+**One.MIT 2020 - The MIT Seal**
 
 If you look carefully, you may spot an additional motif hidden on the 2020 wafer. Inspired by the beautiful (and intriguingly mathematical) patterns inside a sunflower, known as phyllotaxis, this subtle pattern spirals out over the design.
 
 <br>
 
-**One.MIT 2018 - The Great Dome**  
+**One.MIT 2018 - The Great Dome**
 
-This original image of MIT’s iconic Great Dome was drawn by Heidi Erickson, senior graphic designer in the MIT Center for Art, Science & Technology. Read more about the very first One.MIT design at MIT News: <a href="https://news.mit.edu/2019/onemit-creates-monument-at-smallest-scale-0318">“One.MIT” creates a monument — at the smallest scale</a>.  
-
+This original image of MIT’s iconic Great Dome was drawn by Heidi Erickson, senior graphic designer in the MIT Center for Art, Science & Technology. Read more about the very first One.MIT design at MIT News: <a href="https://news.mit.edu/2019/onemit-creates-monument-at-smallest-scale-0318">“One.MIT” creates a monument — at the smallest scale</a>.
 
   </div>
 

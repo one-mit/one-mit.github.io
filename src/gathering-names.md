@@ -1,7 +1,7 @@
 ---
 title: Gathering the Names
 toc: false
-theme: [air,alt,wide]
+theme: [air, alt, wide]
 ---
 
 <div class= "grid grid-cols-2">

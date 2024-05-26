@@ -1,0 +1,4 @@
+dist/
+src/.observablehq/
+.github/
+*minified.json
