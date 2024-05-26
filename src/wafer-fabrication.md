@@ -51,6 +51,8 @@ function return_img(src, size) {
     
 The very first wafer was fabricated in 2018 by Dennis Ward and Kris Payer in the now-closed Microsystems Technology Laboratory cleanrooms in Building 39, before the newly-built MIT.nano shared central facility was completed and opened to users. Since then, every wafer that you can see displayed on the walls has been fabricated in the cleanrooms of MIT.nano by teams that include MIT undergraduates, graduate students, staff, faculty, and alumni!  
 
+(Image: *Inside the cleanroom fabrication facility*)
+
   </div>
 
   <div class="card">
@@ -71,15 +73,12 @@ Despite the complexity of computationally generating the image and layout files,
 
 For One.MIT 2024, Dr. Jorg Scholvin assembled a team that reflected One.MIT—students, faculty, staff, and alumni—and worked with them to fabricate the wafer inside MIT.nano’s cleanroom. The fab team included Prof. W. Craig Carter; undergraduate students Akorfa Dagadu, Sean Luk, Emilia K Szczepaniak, Amber Velez, and twin brothers Juan Antonio Luera and Juan Angel Luera; Sloan EMBA student Patricia LaBorda; staff member Kevin Verrier of MIT Facilities; and alumnae Madeline Hickman '11 and Eboney Hearn '01, who is also the executive director of Engineering Outreach Programs.
 
+(Image: *The MIT Seal design wafer (One.MIT 2020) was fabricated in April 2022 inside MIT.nano by undergraduate students Eryn Cornelius ’23, Syd Robinson ’25, James Greer ’22, and Aashini Shah ’22 led by Jorg Scholvin of MIT.nano.*)  
+
   </div>
 
   <div class="card">
     ${resize((width,height)=> return_img(img_src_fab2020,Math.min(width,height)))}
-
-*The MIT Seal design wafer (One.MIT 2020) was fabricated in April 2022 inside MIT.nano by undergraduate students Eryn Cornelius ’23, Syd Robinson ’25, James Greer ’22, and Aashini Shah ’22 led by Jorg Scholvin of MIT.nano.*  
-
-![Fabricated One.MIT 2020 wafer](./imgs/onemit2020_fab_IMG_1372.JPG)
-
   </div>
 
 </div>
