@@ -68,10 +68,10 @@ Once a solution (i.e., the final image created by the millions of characters) is
 
 *(Image: Zooming on the One.MIT 2018 wafer design)*
 
-  <div class="card">
-    ${resize((width,height)=> return_img(img_src_zoomin,Math.min(width,height)))}
   </div>
 
+  <div class="card">
+    ${resize((width,height)=> return_img(img_src_zoomin,Math.min(width,height)))}
   </div>
 
 </div>
