@@ -22,7 +22,7 @@ export default {
   title: "One.MIT",
   theme: "light",
   root: "src",
-  pager: false,
+  pager: true,
   footer: footer,
   header: header,
   pages: [

@@ -18,6 +18,11 @@
   }
 }
 
+#observablehq-footer > nav {
+  display: none;
+  visibility: hidden;
+}
+
 #map {
   position: absolute;
   top: 0;
