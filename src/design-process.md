@@ -4,6 +4,38 @@ toc: false
 theme: [air,alt,wide]
 ---
 
+<style>
+  
+.img-container {
+  text-align: center;
+}
+
+.img-container img {
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+  
+</style>
+
+
+```js
+// IMAGES
+
+const img_src_kerning = FileAttachment("./imgs/text_kerning_example.png").href;
+const img_src_zoomin = FileAttachment("./imgs/crop_M.jpg").href;
+
+function return_img(src, size) {
+  return html`
+      <img
+        src="${src}"
+        height="${size}px"
+        width="${size}px"
+      />
+  `;
+}
+```
+
 <div class= "grid grid-cols-2">
   <div class="card">
     <h1> Design Process  </h1>
@@ -18,9 +50,15 @@ The black and white regions sow the seeds that produce the heavy and light fonts
 
 The font types are inherited from their position in the background image. Quality typesetting requires the spacing between characters to be “kerned.” For example, the appearance of **LY** looks better when the spacing within the **L** and the **Y** is smaller. **IM** looks better with a wider spacing and so the kern is larger. 
 
-![Example of text with kerning](./imgs/text_kerning_example.png)
+(*Image: An example of text with kerning. <a href="https://en.wikipedia.org/wiki/Kerning">Curious about kerning? Learn more at Wikipedia.</a>*)
 
-*<a href="https://en.wikipedia.org/wiki/Kerning">Curious about kerning? Learn more at Wikipedia.</a>*
+  </div>
+
+  <div class="card">
+    ${resize((width,height)=> return_img(img_src_kerning,Math.min(width,height)))}
+  </div>
+
+  <div class="card">
 
 The kerns are different for the different fonts—each character pair has four possible kerns. This produces some complexity because minor adjustments can switch font types that have different widths and kerns. The change in spacing produces a cascading effect on subsequent font choices. Modifying just one letter from light to dark (and vice versa) perturbs the spacing in the whole image and requires re-computing the entire mosaic.
 
@@ -28,14 +66,12 @@ Finally, Carter needed to find a font scale that fills the wafer space maximally
 
 Once a solution (i.e., the final image created by the millions of characters) is obtained it must be converted to two different printing languages. For the wafer fabrication, Carter had to write data conversions to the layout file format (GDSII) that was created for interconnects on silicon chips.  For the large wall print, the data is converted to PostScript and then from PostScript to PDF. 
 
-![Zoomed in on One.MIT2018](./imgs/crop_M.jpg)
-
-*Zooming on the One.MIT 2018 wafer design*
-
-  </div>
-
+*(Image: Zooming on the One.MIT 2018 wafer design)*
 
   <div class="card">
-    <h1> Figure placeholder </h1>
+    ${resize((width,height)=> return_img(img_src_zoomin,Math.min(width,height)))}
   </div>
+
+  </div>
+
 </div>
