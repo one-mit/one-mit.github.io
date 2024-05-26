@@ -27,24 +27,20 @@ export default {
   header: header,
   pages: [
     {
-      name: "One.MIT 2018",
-      path: "onemit2018",
-    },
-    {
-      name: "One.MIT 2020",
-      path: "onemit2020",
-    },
-    {
-      name: "One.MIT 2024",
-      path: "onemit2024",
-    },
-    {
-      name: "FAQ & Search Tips",
-      path: "faq",
+      name: "Mosaics",
+      open: true,
+      collapsible: false,
+      pages: [
+        { name: "One.MIT 2018", path: "onemit2018" },
+        { name: "One.MIT 2020", path: "onemit2020" },
+        { name: "One.MIT 2024", path: "onemit2024" },
+        { name: "FAQ & Search Tips", path: "faq" },
+      ],
     },
     {
       name: "About",
       open: true,
+      collapsible: true,
       pages: [
         { name: "One.MIT Inception", path: "inception" },
         { name: "Gathering the Names", path: "gathering-names" },
