@@ -1,0 +1,38 @@
+@import url("observablehq:default.css");
+@import url("observablehq:theme-air.css");
+
+.svg-container img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.search-box-container {
+  position: relative;
+  height: 512px;
+}
+
+.centered-text {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -75%);
+  height: 240px;
+}
+
+.search-heading {
+  color: white;
+  text-align: center;
+}
+
+th {
+  display: none;
+}
+
+table {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+input {
+  text-align: center;
+}
