@@ -12,7 +12,7 @@ const img_style = "object-fit:cover; border-radius: 0.75rem;";
 import { return_resized_img } from "./components/img_utils.js";
 ```
 
-<div class= "grid grid-cols-2">
+<div class= "grid grid-cols-2" style="grid-auto-rows: auto;">
 
 :::card
 
