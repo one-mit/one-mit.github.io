@@ -55,7 +55,7 @@ Each design -- the Great Dome (2018), the MIT Seal (2020), and the Move to Cambr
 
   </div>
 
-  <div class="card>
+  <div class="card">
     <div class="img-container" style="min-height:242px;">
       ${resize((width,height)=> return_img(img_src_mitnano,Math.min(width,height)))}
     </div>
