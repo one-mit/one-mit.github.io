@@ -34,11 +34,13 @@ function return_resized_iframe(width,height) {
 const img_src_photolith = FileAttachment("./imgs/photolithography-in-cleanroom.png").href;
 const img_src_fab2020 = FileAttachment("./imgs/onemit2020_fab_IMG_1372.JPG").href;
 
+
+// only resize width, not height
+
 function return_img(src, size) {
   return html`
       <img
         src="${src}"
-        height="${size}px"
         width="${size}px"
       />
   `;
