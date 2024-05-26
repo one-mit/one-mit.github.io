@@ -73,7 +73,7 @@ Despite the complexity of computationally generating the image and layout files,
 
 For One.MIT 2024, Dr. Jorg Scholvin assembled a team that reflected One.MIT—students, faculty, staff, and alumni—and worked with them to fabricate the wafer inside MIT.nano’s cleanroom. The fab team included Prof. W. Craig Carter; undergraduate students Akorfa Dagadu, Sean Luk, Emilia K Szczepaniak, Amber Velez, and twin brothers Juan Antonio Luera and Juan Angel Luera; Sloan EMBA student Patricia LaBorda; staff member Kevin Verrier of MIT Facilities; and alumnae Madeline Hickman '11 and Eboney Hearn '01, who is also the executive director of Engineering Outreach Programs.
 
-(Image: *The MIT Seal design wafer (One.MIT 2020) was fabricated in April 2022 inside MIT.nano by undergraduate students Eryn Cornelius ’23, Syd Robinson ’25, James Greer ’22, and Aashini Shah ’22 led by Jorg Scholvin of MIT.nano.*)  
+*(Image: The MIT Seal design wafer (One.MIT 2020) was fabricated in April 2022 inside MIT.nano by undergraduate students Eryn Cornelius ’23, Syd Robinson ’25, James Greer ’22, and Aashini Shah ’22 led by Jorg Scholvin of MIT.nano.)*  
 
   </div>
 
