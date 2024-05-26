@@ -33,13 +33,13 @@ Come see the wafers in the MIT.nano first floor galleries located in the southwe
 :::
 
 <div class="grid grid-cols-3" style="grid-auto-rows: auto;">
-  <div class="img-container" style="min-height:242px;">
+  <div class="img-container" style="min-height:300px;">
     ${resize((width,height)=> return_resized_img_link(img_src_2018,"./onemit2018",Math.min(width,height)))}
   </div>
-  <div class="img-container" style="min-height:242px;">
+  <div class="img-container" style="min-height:300px;">
     ${resize((width,height)=> return_resized_img_link(img_src_2020,"./onemit2020",Math.min(width,height)))}
   </div>
-  <div class="img-container" style="min-height:242px;">
+  <div class="img-container" style="min-height:300px;">
     ${resize((width,height)=> return_resized_img_link(img_src_2024,"./onemit2024",Math.min(width,height)))}
   </div>
 </div>

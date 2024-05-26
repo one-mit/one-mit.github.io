@@ -9,7 +9,8 @@ style: css/custom.css
 // IMAGES
 
 const img_src = FileAttachment("./imgs/MIT-nano-exterior_0.jpg").href;
-const img_style = "object-fit:cover; border-radius: 0.75rem;";
+const img_style =
+  "object-fit:cover; border-radius: 0.75rem; border: solid 1px var(--theme-foreground-faintest);";
 import { return_resized_img } from "./components/img_utils.js";
 ```
 
@@ -35,7 +36,7 @@ The [onemit.mit.edu]("https://onemit.mit.edu") interactive website allows visito
 
 :::
 
-<div style="min-height:500px;">
+<div style="min-height:450px;">
   ${resize((width,height)=> return_resized_img(img_src,width,height,img_style))}
 </div>
   

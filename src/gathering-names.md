@@ -10,7 +10,7 @@ style: css/custom.css
 
 const img_src = FileAttachment("./imgs/about-OCR4.png").href;
 const img_style =
-  "object-fit:cover; object-position:left; border-radius: 0.75rem;";
+  "object-fit:cover; object-position: left; border-radius: 0.75rem; border: solid 1px var(--theme-foreground-faintest);";
 import { return_resized_img } from "./components/img_utils.js";
 ```
 
