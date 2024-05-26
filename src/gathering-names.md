@@ -4,17 +4,35 @@ toc: false
 theme: [air, alt, wide]
 ---
 
+```js
+// IMAGES
+
+const img_src = FileAttachment("./imgs/about-OCR4.png").href;
+const img_style = "object-fit:cover; border-radius: 0.75rem;";
+import { return_resized_img } from "./components/img_utils.js";
+```
+
 <div class= "grid grid-cols-2">
-  <div class="card">
-    <h1> Gathering the Names </h1>
-    
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nisl purus in mollis nunc sed id semper. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Proin nibh nisl condimentum id venenatis a condimentum vitae. Nisi lacus sed viverra tellus in hac habitasse. Scelerisque purus semper eget duis. Congue nisi vitae suscipit tellus mauris. Tellus integer feugiat scelerisque varius. Magna eget est lorem ipsum dolor sit amet. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Arcu risus quis varius quam quisque id. Neque volutpat ac tincidunt vitae semper. Velit ut tortor pretium viverra.
 
-Risus feugiat in ante metus dictum. Purus viverra accumsan in nisl nisi scelerisque eu. Sed turpis tincidunt id aliquet. At auctor urna nunc id cursus metus aliquam. Erat velit scelerisque in dictum non. Est pellentesque elit ullamcorper dignissim cras tincidunt. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Sem et tortor consequat id. Est sit amet facilisis magna etiam. Mauris nunc congue nisi vitae suscipit tellus mauris. Nulla facilisi nullam vehicula ipsum a arcu cursus.
+:::card
 
-  </div>
+# Gathering the Names
 
-  <div class="card">
-    <h1> Figure placeholder </h1>
-  </div>
+Over 300,000 names are etched in the wafers representing students, faculty, staff, and alumni from 1861 up to the fall of 2023.
+The Alumni Association and Institutional Research keep the lists of students and alumni, as well as lists of faculty and staff since 1991 onwards.
+The records of faculty and staff before 1991 existed only in paper form.
+
+With the help of MIT Libraries and Institute Archives, over 6,000 pages of old paper directories were scanned and examined with optical character recognition (OCR).
+Then, a combination of custom-built programs extracted the text from the digitized data, reformatted the names, and removed duplicates.
+This was followed by hours of manual editing to catch OCR problems and other errors.
+Even so, as our historians and archivists remind us, no record is perfect!
+
+(Image: Example paper record used in optical character recognition.)
+
+:::
+
+<div style="min-height:300px;">
+  ${resize((width,height)=> return_resized_img(img_src,width,height,img_style))}
+</div>
+  
 </div>
