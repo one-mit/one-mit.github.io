@@ -4,20 +4,33 @@ toc: false
 theme: [air,alt,wide]
 ---
 
+<style>
+  
+.img-container {
+  text-align: center;
+}
+
+.img-container img {
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+  
+</style>
+
+
 ```js
 // IMAGES
 
 const img_src_mitnano = FileAttachment("./imgs/MIT-nano-exterior_0.jpg").href;
 
-function return_img(src, size, url) {
+function return_img(src, size) {
   return html`
-    <a href="${url}">
       <img
         src="${src}"
         height="${size}px"
         width="${size}px"
       />
-    </a>
   `;
 }
 ```
@@ -42,7 +55,9 @@ Each design -- the Great Dome (2018), the MIT Seal (2020), and the Move to Cambr
 
   </div>
 
+  <div class="card>
     <div class="img-container" style="min-height:242px;">
-      ${resize((width,height)=> return_img(img_src_mitnano,Math.min(width,height),"https://mitnano.mit.edu"))}
+      ${resize((width,height)=> return_img(img_src_mitnano,Math.min(width,height)))}
     </div>
+  </div>
 </div>
