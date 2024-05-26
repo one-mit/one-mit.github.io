@@ -4,6 +4,7 @@ toc: false
 footer: false
 header: false
 theme: [air, alt, wide]
+style: css/mapbox.css
 sql:
   onemit2024: ./data/onemit2024.parquet
 ---
@@ -11,13 +12,11 @@ sql:
 ```js
 // GEOJSON SOURCES
 
-const hilbert_geojson = FileAttachment(
-  "data/hilbert-blue-minified.json",
-).json();
-const text_geojson = FileAttachment(
+const blue_json = FileAttachment("data/hilbert-blue-minified.json").json();
+const black_json = FileAttachment(
   "data/hilbert-black-simplified-minified.json",
 ).json();
-const dome_geojson = FileAttachment("data/hilbert-white-minified.json").json();
+const white_json = FileAttachment("data/hilbert-white-minified.json").json();
 ```
 
 ```js
@@ -64,21 +63,20 @@ const access_token =
   "pk.eyJ1IjoiZ3Zhcm5hdmlkZXMiLCJhIjoiY2pxZTVicmY2NGJyYTQ4cHBpMHF1MnQ0cCJ9.DuX_gamAs2uXdmq8Gio90Q";
 const mapbox_style = "mapbox://styles/gvarnavides/clvmxvwcy01bb01rj7q509sg6";
 const server_prefix = "https://onemitdata.mit.edu/tiles/";
-const mouse_lng_lat = Mutable([]);
 
 const hilbert_source = {
   type: "geojson",
-  data: hilbert_geojson,
+  data: blue_json,
 };
 
 const text_source = {
   type: "geojson",
-  data: text_geojson,
+  data: black_json,
 };
 
 const dome_source = {
   type: "geojson",
-  data: dome_geojson,
+  data: white_json,
 };
 
 const onemit_vector_source = {
@@ -117,8 +115,16 @@ const bounding_box_source = {
 const background_opacity = {
   type: "exponential",
   stops: [
-    [19, 1],
+    [19, 0.875],
     [21, 0],
+  ],
+};
+
+const line_width = {
+  type: "exponential",
+  stops: [
+    [16, 0.5],
+    [21, 8],
   ],
 };
 
@@ -131,7 +137,7 @@ const hilbert_layer = {
   layout: { visibility: "visible" },
   paint: {
     "line-color": "rgb(36, 107, 206)",
-    "line-width": 1,
+    "line-width": line_width,
     "line-opacity": background_opacity,
   },
 };
@@ -144,7 +150,7 @@ const dome_layer = {
   maxzoom: 21,
   layout: { visibility: "visible" },
   paint: {
-    "fill-color": "rgb(255, 255, 255)",
+    "fill-color": "rgb(244, 232, 201)",
     "fill-opacity": background_opacity,
   },
 };
@@ -171,7 +177,7 @@ const hilbert_layer_inset = {
   layout: { visibility: "visible" },
   paint: {
     "line-color": "rgb(36, 107, 206)",
-    "line-width": 1,
+    "line-width": line_width,
   },
 };
 
@@ -183,7 +189,7 @@ const dome_layer_inset = {
   maxzoom: 22,
   layout: { visibility: "visible" },
   paint: {
-    "fill-color": "rgb(255,255,255)",
+    "fill-color": "rgb(244, 232, 201)",
   },
 };
 
@@ -247,74 +253,6 @@ const bounding_box_layer = {
 };
 ```
 
-<style type="text/css">
-
-  #observablehq-main {
-    margin: 0 0;
-  }
-  
-  #observablehq-center {
-    margin: 0 0 0 2rem;
-    padding: 0 0 0 0;
-  }
-
-  @media (min-width: calc(640px + 6rem + 272px)) {
-    #observablehq-sidebar-toggle:checked ~ #observablehq-center,
-    #observablehq-sidebar-toggle:indeterminate ~ #observablehq-center {
-      padding: 0 0 0 calc(272px - 2rem);
-    }
-  }
-
-  #map {
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height:100vh;
-    z-index: 1000;
-  }
-
-  #map_inset {
-    position:absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 20%;
-    height: 20vh;
-    z-index: 1001;
-    border: 1pt solid black;
-  }
-
-  #map_inset_container {
-    position:absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 20%;
-    height: 20vh;
-    z-index: 1001;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    pointer-events: none;
-  }
-
-  #map_inset_box {
-    width: 35%;
-    height: 35%;
-    margin: 0 auto;
-    padding: 0px;
-    border: 3pt solid rgb(163,31,52);
-  }
-  
-  th {
-    display: none;
-  }
-
-  table {
-    background-color: rgba(255,255,255,0.5);
-  }
-
-</style>
-
 <div id="map"> </div>
 <div id="map_inset"> </div>
 <div id="map_inset_container">
@@ -356,11 +294,6 @@ map.on("load", () => {
   map.addLayer(blue_layer);
   map.addLayer(bounding_box_layer);
   map.addControl(new mapboxgl.NavigationControl(), "bottom-right");
-});
-
-map.on("click", (e) => {
-  mouse_lng_lat.push(e.lngLat);
-  console.log(mouse_lng_lat);
 });
 
 const map_inset = new mapboxgl.Map({
