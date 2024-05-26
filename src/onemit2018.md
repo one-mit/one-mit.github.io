@@ -65,7 +65,7 @@ text_input_mit_input.dispatchEvent(new Event("input", { bubbles: true }));
 
 <div class="grid grid-cols-3" style="grid-auto-rows: min-content;">
   <div class="grid-colspan-3 search-box-container">
-    ${resize((width,height)=> return_resized_img(img_src, width,height, img_style))}
+    ${resize((width,height)=> return_resized_img(img_src, width, height, img_style))}
     <div class="centered-text">
       <div class="search-heading"> Start typing a name..</div>
       ${text_input_mit_input}
