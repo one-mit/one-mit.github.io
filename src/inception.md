@@ -43,9 +43,8 @@ Each design -- the Great Dome (2018), the MIT Seal (2020), and the Move to Cambr
   </div>
 
   <div class="card">
-
     <div class="img-container" style="min-height:242px;">
-      ${resize((width,height)=> return_img(img_src_2018,Math.min(width,height),"https://mitnano.mit.edu"))}
+      ${resize((width,height)=> return_img(img_src_mitnano,Math.min(width,height),"https://mitnano.mit.edu"))}
     </div>  
     
     *MIT.nano in the Lisa T. Su Building (<a href="https://whereis.mit.edu/?go=12">Building 12</a>)*  
