@@ -26,16 +26,6 @@
   background-clip: text;
 }
 
-.hero h2 {
-  margin: 0;
-  max-width: 34em;
-  font-size: 3vw;
-  font-style: initial;
-  font-weight: 500;
-  line-height: 1.5;
-  color: var(--theme-foreground-muted);
-}
-
 .hero p {
   max-width: none;
   text-align: justify;

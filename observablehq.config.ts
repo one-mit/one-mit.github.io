@@ -1,5 +1,7 @@
 // See https://observablehq.com/framework/config for documentation.
 
+import MarkdownItContainer from "markdown-it-container";
+
 const footer: string = `
   © ${new Date().getUTCFullYear()} One.MIT is a project of <a href="https://mitnano.mit.edu/" target="_blank">MIT.nano</a> | 77 Massachusetts Avenue &ndash; Building 12 | Cambridge, MA 02139 | <a href="mailto:mitnano@mit.edu?subject=Inquiry about One.MIT">Contact</a> | <a href="https://accessibility.mit.edu/" target="_blank">Accesibility</a>
 `;
@@ -54,4 +56,8 @@ export default {
       ],
     },
   ],
+  markdownIt: (md) =>
+    md
+      .use(MarkdownItContainer, "card") // ::: card
+      .use(MarkdownItContainer, "hero"), // ::: hero
 };
