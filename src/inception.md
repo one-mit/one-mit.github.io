@@ -2,6 +2,7 @@
 title: One.MIT Inception
 toc: false
 theme: [air, alt, wide]
+style: css/custom.css
 ---
 
 ```js

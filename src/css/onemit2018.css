@@ -1,5 +1,15 @@
 @import url("observablehq:default.css");
 @import url("observablehq:theme-air.css");
+@import url("observablehq:theme-alt.css");
+@import url("observablehq:theme-wide.css");
+
+#observablehq-footer {
+  margin: 1rem auto;
+}
+
+#observablehq-footer nav {
+  max-width: none;
+}
 
 .svg-container img {
   position: absolute;

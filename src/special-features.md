@@ -2,6 +2,7 @@
 title: Design Notes
 toc: false
 theme: [air, alt, wide]
+style: css/custom.css
 ---
 
 <div class= "grid grid-cols-2">

@@ -2,6 +2,7 @@
 title: FAQ & Search Tips
 toc: false
 theme: [air, alt, wide]
+style: css/custom.css
 ---
 
 # Frequently Asked Questions

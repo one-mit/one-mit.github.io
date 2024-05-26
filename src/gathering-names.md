@@ -2,6 +2,7 @@
 title: Gathering the Names
 toc: false
 theme: [air, alt, wide]
+style: css/custom.css
 ---
 
 ```js

@@ -2,6 +2,7 @@
 title: Design Process
 toc: false
 theme: [air, alt, wide]
+style: css/custom.css
 ---
 
 <style>
