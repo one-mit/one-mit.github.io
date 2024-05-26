@@ -35,13 +35,13 @@ const img_src_photolith = FileAttachment("./imgs/photolithography-in-cleanroom.p
 const img_src_fab2020 = FileAttachment("./imgs/onemit2020_fab_IMG_1372.JPG").href;
 
 
-// only resize width, not height
+// only resize height, not width
 
 function return_img(src, size) {
   return html`
       <img
         src="${src}"
-        width="${size}px"
+        height="${size}px"
       />
   `;
 }
