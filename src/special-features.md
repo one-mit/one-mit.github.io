@@ -26,7 +26,7 @@ import { return_resized_img } from "./components/img_utils.js";
 
 **_One.MIT 2024 - Move to Cambridge_**
 
-Inspired by a 1916 lithograph celebrating the opening of MIT’s then newly-built Cambridge campus, the One.MIT 2024 design achieves its background gradient effect by using a _single continuous line_ that weaves back and forth in a Schwarz-Christoffel mapping of a Hilbert curve.
+Inspired by a [1916 lithograph](https://archivesspace.mit.edu/repositories/2/digital_objects/1287) celebrating the opening of MIT’s then newly-built Cambridge campus, the One.MIT 2024 design achieves its background gradient effect by using a _single continuous line_ that weaves back and forth in a Schwarz-Christoffel mapping of a Hilbert curve.
 
 Carter had to redraw the lithograph’s architectural features and character elements to get clean data representation.
 The color gradient representing the sky behind the dome was a challenge because only two shades were available. In true MIT spirit, this challenge provided Carter an opportunity for nerdiness and fun. Two techniques were combined to create the gradient effect.
