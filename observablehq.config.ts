@@ -25,6 +25,7 @@ export default {
   pager: true,
   footer: footer,
   header: header,
+  typographer: true,
   pages: [
     {
       name: "Mosaics",

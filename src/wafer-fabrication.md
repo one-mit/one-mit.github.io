@@ -60,7 +60,6 @@ Finally, the aluminum is selectively etched away and the photoresist removed to 
   ${resize((width,height)=> return_resized_iframe(youtube_src,width,height))}
 </div>
 
-
 :::card
 
 For One.MIT 2024, Dr. Jorg Scholvin assembled a team that reflected One.MIT &ndash; students, faculty, staff, and alumni &ndash; and worked with them to fabricate the wafer inside MIT.nano’s cleanroom.
