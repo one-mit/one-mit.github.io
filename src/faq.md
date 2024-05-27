@@ -81,7 +81,7 @@ Learn more about the design process [here](./design-process).
 
 **Q: How is the wafer made?**
 
-Each wafer is fabricated right in MIT.nano cleanrooms on campus, led by Jorg Scholvin with assistance from MIT undergrad students!
+Each wafer is fabricated right in MIT.nano cleanrooms on campus, led by Dr. Jorg Scholvin with assistance from MIT undergrad students!
 Learn more about the wafer fabrication [here](./wafer-fabrication).
 
 :::
