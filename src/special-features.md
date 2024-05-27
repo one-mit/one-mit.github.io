@@ -9,11 +9,10 @@ style: css/custom.css
 // IMAGES
 
 const img_src_souvenir = FileAttachment(
-  "./imgs/lithograph_1916_program_image.png",
+  "./imgs/lithograph_1916_program_image-resized.png",
 ).href;
-const img_src_hilbert = FileAttachment("./imgs/hilbert-schematics.png").href;
-const img_src_thumbnail = FileAttachment(
-  "./imgs/onemit2024_thumbnail.png",
+const img_src_hilbert = FileAttachment(
+  "./imgs/hilbert-schematics-resized.png",
 ).href;
 const img_style = "object-fit:contain;";
 import { return_resized_img } from "./components/img_utils.js";

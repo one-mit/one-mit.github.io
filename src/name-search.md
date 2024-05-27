@@ -8,8 +8,12 @@ style: css/custom.css
 ```js
 // IMAGES
 
-const img_src_raster = FileAttachment("./imgs/raster-tiles-pyramid.png").href;
-const img_src_vector = FileAttachment("./imgs/perspective-map.png").href;
+const img_src_raster = FileAttachment(
+  "./imgs/raster-tiles-pyramid-resized.png",
+).href;
+const img_src_vector = FileAttachment(
+  "./imgs/perspective-map-resized.png",
+).href;
 const img_style = "object-fit:contain;";
 const img_style_2 =
   "object-fit:cover; object-position: top right; border-radius: 0.75rem; border: solid 1px var(--theme-foreground-faintest);";

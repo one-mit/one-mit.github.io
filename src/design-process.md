@@ -8,8 +8,10 @@ style: css/custom.css
 ```js
 // IMAGES
 
-const img_src_kerning = FileAttachment("./imgs/text_kerning_example.png").href;
-const img_src_zoomin = FileAttachment("./imgs/crop_M.jpg").href;
+const img_src_kerning = FileAttachment(
+  "./imgs/text_kerning_example-resized.png",
+).href;
+const img_src_zoomin = FileAttachment("./imgs/crop_M-resized.png").href;
 const img_style =
   "object-fit:cover; border-radius: 0.75rem; border: solid 1px var(--theme-foreground-faintest);";
 import { return_resized_img } from "./components/img_utils.js";

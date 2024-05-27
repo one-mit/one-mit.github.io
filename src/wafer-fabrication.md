@@ -9,10 +9,10 @@ style: css/custom.css
 // IMAGES
 
 const img_src_photolith = FileAttachment(
-  "./imgs/photolithography-in-cleanroom.png",
+  "./imgs/photolithography-in-cleanroom-resized.png",
 ).href;
 const img_src_fab2020 = FileAttachment(
-  "./imgs/onemit2020_fab_IMG_1372.JPG",
+  "./imgs/onemit2020_fab_IMG_1372-resized.png",
 ).href;
 
 const img_style =

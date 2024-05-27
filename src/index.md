@@ -5,9 +5,15 @@ style: css/index.css
 
 ```js
 // IMAGES
-const img_src_2018 = FileAttachment("./imgs/onemit2018_thumbnail.png").href;
-const img_src_2020 = FileAttachment("./imgs/onemit2020_thumbnail.png").href;
-const img_src_2024 = FileAttachment("./imgs/onemit2024_thumbnail.png").href;
+const img_src_2018 = FileAttachment(
+  "./imgs/onemit2018_thumbnail-resized.png",
+).href;
+const img_src_2020 = FileAttachment(
+  "./imgs/onemit2020_thumbnail-resized.png",
+).href;
+const img_src_2024 = FileAttachment(
+  "./imgs/onemit2024_thumbnail-resized.png",
+).href;
 
 import { return_resized_img_link } from "./components/img_utils.js";
 ```

@@ -10,7 +10,9 @@ sql:
 ```js
 // SEARCH BACKGROUND IMAGE
 
-const img_src = FileAttachment("./imgs/onemit2018-search_background.jpg").href;
+const img_src = FileAttachment(
+  "./imgs/onemit2018-search_background-resized.png",
+).href;
 const img_style =
   "object-fit:cover; border-radius: 0.75rem; border: solid 1px var(--theme-foreground-faintest);";
 import { return_resized_img } from "./components/img_utils.js";

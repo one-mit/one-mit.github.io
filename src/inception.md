@@ -8,7 +8,7 @@ style: css/custom.css
 ```js
 // IMAGES
 
-const img_src = FileAttachment("./imgs/MIT-nano-exterior_0.jpg").href;
+const img_src = FileAttachment("./imgs/MIT-nano-exterior_0-resized.png").href;
 const img_style =
   "object-fit:cover; border-radius: 0.75rem; border: solid 1px var(--theme-foreground-faintest);";
 import { return_resized_img } from "./components/img_utils.js";
