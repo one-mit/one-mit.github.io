@@ -36,7 +36,7 @@ import {
 The very first wafer was fabricated in 2018 by Dennis Ward and Kris Payer in the now-closed Microsystems Technology Laboratory cleanrooms in Building 39, before the newly-built MIT.nano shared central facility was completed and opened to users.
 Since then, every wafer that you can see displayed on the walls has been fabricated in the cleanrooms of MIT.nano by teams that include MIT undergraduates, graduate students, staff, faculty, and alumni!
 
-(Image: _Inside the cleanroom fabrication facility_)
+_(Image: Inside the cleanroom fabrication facility)_
 
 :::
 
@@ -53,7 +53,7 @@ The two layers combined measure approximately 100nm in thickness, or 500-1000 ti
 The wafer is then coated with photoresist and exposed in a direct-write photolithography tool to make an etch mask.
 Finally, the aluminum is selectively etched away and the photoresist removed to create the image on the wafer.
 
-(Video: _Glimpse of the wafer fabrication_)
+_(Video: Glimpse of the wafer fabrication)_
 :::
 
 <div style="min-height:250px;">
