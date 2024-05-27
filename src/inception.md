@@ -30,7 +30,7 @@ Each design &ndash; the Great Dome (2018), the MIT Seal (2020), and the Move to 
 In Bulovic's words, “One.MIT celebrates the MIT ethos and reminds us that no matter when we came to MIT, whatever our roles, we all leave a mark on this remarkable community.”
 
 The One.MIT artwork and specially fabricated wafers are on permanent display in the ground floor galleries at MIT.nano in the <a href="https://whereis.mit.edu/?go=12">Lisa T. Su Building</a>.
-The [onemit.mit.edu]("https://onemit.mit.edu") interactive website allows visitors to search for individual names in each design.
+The [onemit.mit.edu](https://onemit.mit.edu) interactive website allows visitors to search for individual names in each design.
 
 (Image: MIT.nano in the <a href="https://whereis.mit.edu/?go=12">Lisa T. Su Building</a>, opened in 2018.)
 
