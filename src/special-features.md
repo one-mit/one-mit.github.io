@@ -52,7 +52,9 @@ A conformal map comes in handy—in this case the Schwarz-Christoffel mapping.
 Conformal maps can be used to solve problems in electrostatics, gravitational fields, fluid flow, and temperature distributions—they are lovely convergences of physics and engineering with mathematics and geometry.
 
 Because the conformal mapping is smooth and preserves the local angles, the square’s corners produce four singular points on the circle where the Hilbert curve’s line segments shrink to a point. 
-The location of the four points in the upper part of the circle squeezes the curve and creates the gradient: dense-to-sparse from top-to-bottom.
+The location of the four points in the upper part of the circle squeezes the curve and creates the gradient: dense-to-sparse from top-to-bottom.  
+
+Read more about One.MIT 2024 at MIT News: [Using art and science to depict the MIT family from 1861 to the present](https://news.mit.edu/2024/one-mit-using-art-science-depict-mit-family-0528).
 
 :::
 
