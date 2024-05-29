@@ -41,7 +41,7 @@ const name_mit_glob_reversed = name_mit_array
   .reduce((acc, val) => acc + val + "*", "*");
 
 const text_selection_mit_input = Inputs.table(
-  sql`SELECT * FROM "onemit2024" WHERE "name" GLOB ${name_mit_glob} OR "name" GLOB ${name_mit_glob_reversed} ORDER BY "name", "name" LIMIT 25`,
+  sql`SELECT * FROM "onemit2024" WHERE "name" GLOB ${name_mit_glob} OR "name" GLOB ${name_mit_glob_reversed} ORDER BY LENGTH("name"), "name" LIMIT 25`,
   {
     columns: ["name"],
     required: false,
