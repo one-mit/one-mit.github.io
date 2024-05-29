@@ -32,7 +32,7 @@ In Bulovic's words, “One.MIT celebrates the MIT ethos and reminds us that no m
 The One.MIT artwork and specially fabricated wafers are on permanent display in the ground floor galleries at MIT.nano in the <a href="https://whereis.mit.edu/?go=12">Lisa T. Su Building</a>.
 The [onemit.mit.edu](https://onemit.mit.edu) interactive website allows visitors to search for individual names in each design.
 
-*(Image: MIT.nano in the <a href="https://whereis.mit.edu/?go=12">Lisa T. Su Building</a>, opened in 2018.)*
+_(Image: MIT.nano in the <a href="https://whereis.mit.edu/?go=12">Lisa T. Su Building</a>, opened in 2018.)_
 
 :::
 
